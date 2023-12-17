@@ -1,0 +1,101 @@
+body{
+background-color: rgba(255,207,0,0.5);
+}
+.kwestkonariusz{
+background-color: white;
+}
+.textarea{
+    height: 150px;
+    width: 350px;
+}
+label {
+    width: 140px;
+    display: inline-block;
+}
+.przyc1{
+    width: 120px;
+    color: #000;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    height: 50px;
+    font-size: 1em;
+    border: 2px;
+    background-color:#330099 ;
+    color: white;
+}
+fieldset{
+    width: 34%;
+    background-color: white;
+    padding: 0;
+    margin: auto;
+    border-color: #8129a7;
+}
+.jezyki{
+    align-items: center;
+    
+}
+
+.head   {
+    background-color: #3f0fa1;
+    margin-top: -4%;
+    color: white;
+    height: 100px;
+    padding-top: 15px;
+    padding-left:10px ;
+    
+    
+}
+p{
+    text-align: left;
+    font-weight: bolder;
+}
+
+form{
+    width: 450px;
+    text-align: right;
+}
+.koniec{
+    text-align: center;
+ margin-left: 10px;
+ margin-top: -0px;
+}
+label{
+    margin-top: -80px;
+}
+
+.tab{
+    text-align: right;
+    width: 286px;
+}
+
+.komentarz{
+    text-align: right;
+    width: 94px;
+}
+.body{
+    text-align: center;
+ margin-left: 10px;
+}
+#napis{
+    margin-top: -1%;
+}
+input, textarea{
+    background-color: rgba(255,207,0,0.5);
+ 
+}
+.przyc2{
+    width: 120px;
+    color: #000;
+    height: 50px;   
+    font-size: 1em;
+    border: 2px;
+    background-color:#330099 ;
+    color: white;
+}
+
+textarea{
+    vertical-align:top;
+}
+.Date{
+    width: 38.1%;
+}

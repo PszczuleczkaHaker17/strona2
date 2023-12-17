@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz zgłoszeniowy na kurs językowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <img  class="jezyki" src="jezyki.jpg" alt="zdjecię plakatu językowego">
+        <section class="head">
+            <h1>Rejestracja na kurs językowy</h1>
+            <h4  id="napis">Zarejestruj się już dziś i rozpocznij swoją językową przygodę!</h4>
+        </section >
+        <div class="body" >
+            <form>
+                         <p>Dane osobowe:</p><br>
+                            Imię: <input type="text" placeholder="Imie"><br><br>
+                            Nazwisko: <input type="text" placeholder="Nazwisko"><br><br>
+                            PESEL: <input type="number" max="11" placeholder="nr PESEL-11 znaków"><br><br>
+                            Data urodzenia:<input class="Date" type="date"><br><br>
+                         <p>Dane teleadresowe:</p><br>
+                            Ulica: <input type="text"><br><br>
+                            Nr domu: <input type="text"><br><br>
+                            Nr mieszkania: <input type="text"><br><br>
+                            Miejscowość:<input type="text"><br><br>
+                            Adres e-mail: <input type="email" placeholder="adres@nazwa.pl"><br><br>
+                            Nr telefonu <input type="number" max="11" placeholder="123 456 789"><br><br>
+                            
+                        <p>Wybierz język obcy:</p><br>
+                        <div class="tab">
+                                Język Angielski<input type="checkbox" ><br><br>
+                                Język Niemiecki<input type="checkbox"  ><br><br>
+                                Język francuski<input type="checkbox" ><br><br> 
+                        </div>
+                        <p>Wybierz poziom kursu:</p>
+                        <div class="tab">
+                            Poziom podstawowy<input type="radio" name="poziom"><br><br>
+                            Poziom średniozaawansowany<input type="radio" name="poziom" ><br><br>
+                            Poziom zaawansowany<input type="radio" name="poziom" ><br><br>
+                        </div>
+                        
+                       <p>Dołącz swój kwestkonariusz</p> <br>
+                            Wybierz plik:  <input class="kwestkonariusz" type="file"><br><br>
+                        
+                        
+
+                        <p>Twój komentarz:</p><br>
+                        Napisz kilka słów:
+
+                            <textarea class="textarea" name="rea" placeholder="Twoje uwagi, opinie, komentarz..." ></textarea><br><br>
+
+                            <input class="przyc1" type="submit" value="Wyślij ">
+                            <input class="przyc2" type="reset" value="Wyczyść ">
+                       
+
+
+
+                         <br>
+            </form>
+        </div>
+                        
+    </fieldset>
+    
+</body>
+</html>
